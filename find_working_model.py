@@ -30,6 +30,6 @@ for model in models:
             max_tokens=10
         )
         print(f"работает: {model}")
-        break  # Используем первую работающую модель
+        break  
     except Exception as e:
         print(f"не работает: {model}")
